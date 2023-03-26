@@ -8,7 +8,7 @@
 
     if ($make_id) {
       $sql .= " WHERE make_id = :make_id";
-    } else 
+    }
 
     if ($type_id) {
       if ($make_id) {

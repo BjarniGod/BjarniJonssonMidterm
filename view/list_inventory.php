@@ -64,7 +64,7 @@
 				<td><?= $vehicle['year']; ?></td>
 				<td><?= getTypeName($vehicle['type_id']); ?></td>
 				<td><?= getClassName($vehicle['class_id']); ?></td>
-				<td>$ <?= $vehicle['price']; ?></td>
+				<td>$<?= $vehicle['price']; ?></td>
         	</tr>
         <?php endforeach ?>
 	</table>

@@ -67,7 +67,7 @@
   function deleteVehicle($id) {
     global $db;
     $sql = "DELETE FROM vehicles WHERE id = :id";
-    $statement = $this->db->prepare($sql);
+    $statement = $db->prepare($sql);
     $statement->bindValue(':id', $id);
     return $statement->execute();
   }

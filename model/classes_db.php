@@ -28,7 +28,7 @@
     function addClass($class_name) {
         // $db = Database::getDB();
         global $db;
-        $query = 'INSERT INTO classes (Class) VALUES (:class_name)';
+        $query = 'INSERT INTO classes (name) VALUES (:class_name)';
         $statement = $db->prepare($query);
         $statement->bindValue(':class_name', $class_name);
         $statement->execute();

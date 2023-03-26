@@ -30,7 +30,7 @@
     // Add a new make
     function addMake($make) {
         global $db;
-        $query = "INSERT INTO makes (Make) VALUES (:make)";
+        $query = "INSERT INTO makes (name) VALUES (:make)";
         $statement = $db->prepare($query);
         $statement->bindValue(':make', $make);
         $statement->execute();

@@ -1,5 +1,6 @@
 <?php include('header.php') ?>
 
+	<div class="container">
 	<h1>Zippy Used Autos</h1>
 
 	<!-- Sort by price/year dropdown -->
@@ -46,6 +47,8 @@
 		</div>
 		<input type="submit" value="Submit">
 	</form>
+
+				</div>
 
 	<!-- Display the inventory -->
 	<table>

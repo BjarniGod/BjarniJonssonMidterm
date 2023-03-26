@@ -55,12 +55,16 @@ function console_log($output, $with_script_tags = true) {
 
 
 	switch($action) {
-		case "filter":
-			$vehicles = getVehicles($sortBy, $make_id, $type_id, $class_id);
-            // include('view/list_inventory.php');
-            header('Location: .?action=list_inventory');
-		case "admin":
-			header('Location: view/admin.php');
+		// case "filter":
+		// 	$vehicles = getVehicles($sortBy, $make_id, $type_id, $class_id);
+        //     // include('view/list_inventory.php');
+        //     header('Location: .?action=list_inventory');
+		// case "admin":
+        //     $types = getTypes();
+        //     $classes = getClasses();
+        //     $makes = getMakes();
+        //     $vehicles = getVehicles($sortBy, $make_id, $type_id, $class_id);
+		// 	include('view/admin.php');
 		default:
             $types = getTypes();
             $classes = getClasses();

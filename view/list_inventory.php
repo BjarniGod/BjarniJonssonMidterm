@@ -70,7 +70,7 @@
 	</table>
 
 
-	<a href="./admin">Admin Page</a>
+	<!-- <a href="./admin">Admin Page</a> -->
 
 
 
